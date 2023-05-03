@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+service Projects {
+    rpc Get (ProjectQuery) returns (Project) {}
+    rpc All (Empty) returns (ProjectList) {}
+}
+
+message Empty {}
+
+message ProjectQuery {
+    uint32 id = 1;
+}
+
+message ProjectList {
+    repeated ProjectStub projects = 1;
+}
+
+message Project {
+    uint32 id = 1;
+    string title = 2;
+    string iconUrl = 3;
+    string imageUrl = 4;
+    string videoUrl = 5;
+    string tagline = 6;
+    string description = 7;
+    string links = 8;
+}
+
+message ProjectStub {
+    uint32 id = 1;
+    string title = 2;
+    string iconUrl = 3;
+    string tagline = 4;
+}

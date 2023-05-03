@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "title": "First project!",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "Heyoo!",
+        "description": "This is a description of my first project.",
+        "links": ""
+    },
+    {
+        "id": 1,
+        "title": "Second project.",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "Whoa!",
+        "description": "I am now describing my second project.",
+        "links": ""
+    }
+]

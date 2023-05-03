@@ -1,0 +1,21 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Personal Content Delivery Network. Static host for files as well as interface for gRPC.",
+  "main": "index.js",
+  "scripts": {
+    "start-main-ms": "node ./main-ms/main.js",
+    "start-projects-ms": "node --experimental-json-modules ./projects-ms/main.js"
+  },
+  "author": "Collin Riggs",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "@grpc/proto-loader": "^0.7.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
