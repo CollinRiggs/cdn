@@ -1,22 +1,102 @@
 [
     {
         "id": 0,
-        "title": "First project!",
+        "title": "Undergraduate Thesis",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "Heyoo!",
-        "description": "This is a description of my first project.",
+        "tagline": "Chokepoint Detection and Wall-In Building Placement in StarCraft",
+        "description": "",
         "links": ""
     },
     {
         "id": 1,
-        "title": "Second project.",
+        "title": "Have You Seen Kent",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "Whoa!",
+        "tagline": "Roguelike game with custom SFML C++ game engine",
         "description": "I am now describing my second project.",
+        "links": ""
+    },
+    {
+        "id": 2,
+        "title": "Minecraft Village Generator",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "Creating Minecraft Villages using AI",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 3,
+        "title": "Minecraft Mods",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "Series of Minecraft Forge addons",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 4,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 5,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 6,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 7,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 8,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
+        "links": ""
+    },
+    {
+        "id": 9,
+        "title": "",
+        "iconUrl": "",
+        "imageUrl": "",
+        "videoUrl": "",
+        "tagline": "",
+        "description": "",
         "links": ""
     }
 ]
