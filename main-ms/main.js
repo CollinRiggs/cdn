@@ -43,11 +43,11 @@ app.get('/projects/:id', (req, res) => {
     });
 });
 
-https
-    .createServer({
-        key: readFileSync("/etc/nginx/ssl/devbread.net_private_key.key"),
-        cert: readFileSync("/etc/nginx/ssl/devbread.net_ssl_certificate.cer")
-    }, app)
-    .listen(REST_PORT, () => {
+// https
+    // .createServer({
+    //     key: readFileSync("/etc/nginx/ssl/devbread.net_private_key.key"),
+    //     cert: readFileSync("/etc/nginx/ssl/devbread.net_ssl_certificate.cer")
+    // }, app)
+    app.listen(REST_PORT, () => {
         console.log(`RESTful API listening on port ${REST_PORT}`);
     });
