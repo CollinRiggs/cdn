@@ -2,8 +2,6 @@ import { credentials, loadPackageDefinition } from "@grpc/grpc-js";
 import { loadSync } from "@grpc/proto-loader";
 import express from 'express';
 import cors from 'cors';
-import https from 'https';
-import { readFile, readFileSync } from 'fs';
 
 const REST_PORT = 5000;
 
@@ -43,11 +41,6 @@ app.get('/projects/:id', (req, res) => {
     });
 });
 
-https
-    .createServer({
-        key: readFileSync("/etc/nginx/ssl/devbread.net_private_key.key"),
-        cert: readFileSync("/etc/nginx/ssl/devbread.net_ssl_certificate.cer")
-    }, app)
-    .listen(REST_PORT, () => {
-        console.log(`RESTful API listening on port ${REST_PORT}`);
-    });
+app.listen(REST_PORT, () => {
+    console.log(`RESTful API listening on port ${REST_PORT}`);
+});
