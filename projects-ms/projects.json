@@ -35,7 +35,7 @@
         "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
         "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
         "videoUrl": "",
-        "tagline": "Series of Minecraft Forge addons",
+        "tagline": "Series of Minecraft Forge addons, with 600,000+ downloads",
         "description": "",
         "links": ""
     },
@@ -81,11 +81,11 @@
     },
     {
         "id": 8,
-        "title": "Unreal Engine Shooter",
+        "title": "Portfolio Website",
         "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
         "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
         "videoUrl": "",
-        "tagline": "Demo work in UE for shooter with special abilities",
+        "tagline": "This website powered by a custom CDN",
         "description": "",
         "links": ""
     }
