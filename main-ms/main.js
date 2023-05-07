@@ -2,6 +2,8 @@ import { credentials, loadPackageDefinition } from "@grpc/grpc-js";
 import { loadSync } from "@grpc/proto-loader";
 import express from 'express';
 import cors from 'cors';
+import https from 'https';
+import { readFile, readFileSync } from 'fs';
 
 const REST_PORT = 5000;
 
@@ -18,7 +20,7 @@ app.use(cors());
 app.use('/static', express.static('public'));
 
 app.get('/projects', (_, res) => {
-    projectsStub.all({id: 0}, (err, projectStubs) => {
+    projectsStub.all({ id: 0 }, (err, projectStubs) => {
         if (err) {
             res.status(500).send('Could not fetch projects');
             return;
@@ -32,7 +34,7 @@ app.get('/projects/:id', (req, res) => {
         res.status(400).send('Invalid project ID');
         return;
     }
-    projectsStub.get({id: req.params.id}, (err, project) => {
+    projectsStub.get({ id: req.params.id }, (err, project) => {
         if (err) {
             res.status(500).send('Could not fetch project');
             return;
@@ -41,6 +43,11 @@ app.get('/projects/:id', (req, res) => {
     });
 });
 
-app.listen(REST_PORT, () => {
-    console.log(`RESTful API listening on port ${REST_PORT}`);
-});
+https
+    .createServer({
+        key: readFileSync("/etc/nginx/ssl/devbread.net_private_key.key"),
+        cert: readFileSync("/etx/nginx/ssl/devbread.net_ssl_certificate.cer")
+    }, app)
+    .listen(REST_PORT, () => {
+        console.log(`RESTful API listening on port ${REST_PORT}`);
+    });
