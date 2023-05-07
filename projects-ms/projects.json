@@ -11,12 +11,12 @@
     },
     {
         "id": 1,
-        "title": "Have You Seen Kent",
+        "title": "Have You Seen Kent?",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
         "tagline": "Roguelike game with custom SFML C++ game engine",
-        "description": "I am now describing my second project.",
+        "description": "",
         "links": ""
     },
     {
@@ -41,17 +41,17 @@
     },
     {
         "id": 4,
-        "title": "",
+        "title": "Discord Bots",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "",
+        "tagline": "Community chatbot games with database integration",
         "description": "",
         "links": ""
     },
     {
         "id": 5,
-        "title": "",
+        "title": "Universe PCG",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
@@ -61,41 +61,31 @@
     },
     {
         "id": 6,
-        "title": "",
+        "title": "Yuwanna Fight Simulator",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "",
+        "tagline": "Text-based combat web game",
         "description": "",
         "links": ""
     },
     {
         "id": 7,
-        "title": "",
+        "title": "Gesture Control",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "",
+        "tagline": "Run hotkeys with hand movements",
         "description": "",
         "links": ""
     },
     {
         "id": 8,
-        "title": "",
+        "title": "Unreal Engine Shooter",
         "iconUrl": "",
         "imageUrl": "",
         "videoUrl": "",
-        "tagline": "",
-        "description": "",
-        "links": ""
-    },
-    {
-        "id": 9,
-        "title": "",
-        "iconUrl": "",
-        "imageUrl": "",
-        "videoUrl": "",
-        "tagline": "",
+        "tagline": "Demo work in UE for shooter with special abilities",
         "description": "",
         "links": ""
     }
