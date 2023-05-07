@@ -1,6 +1,7 @@
 import { credentials, loadPackageDefinition } from "@grpc/grpc-js";
 import { loadSync } from "@grpc/proto-loader";
 import express from 'express';
+import cors from 'cors';
 
 const REST_PORT = 5000;
 
@@ -12,6 +13,7 @@ const projectsStub = new projectsProto.Projects('0.0.0.0:50051', credentials.cre
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.use(express.static('public'));
 
