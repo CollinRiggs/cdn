@@ -11,11 +11,11 @@
             },
             {
                 "type": "text",
-                "data": "Abstract: A common concept in RTS games is a “chokepoint”, a narrow unavoidable section of the game world. In StarCraft, chokepoints are obstacles that restrict the flow of units as they travel throughout the map. A fundamental component of defense in StarCraft is blocking these chokepoints near your own resources. Given the small traversable area inside a chokepoint, it can be more efficient to use the surrounding natural untraversable geometry of the world to protect you, and reinforce only these chokepoints with defenses, creating the same level of defense that blocking open space would while consuming fewer resources.We attempt to locate the most vital chokepoints near a player’s base, and then determine a strategy for placing defensive structures to efficiently restrict enemy access through this chokepoint. After calculating optimal building placements, we can show that our solution greatly restricts enemy access to the player’s base with minimal resources, increasing safety of the players resources, while also accommodating specific strategies that will allow the player to continue moving their own units through the defended chokepoint."
+                "data": "Abstract: A common concept in RTS games is a “chokepoint”, a narrow unavoidable section of the game world. In StarCraft, chokepoints are obstacles that restrict the flow of units as they travel throughout the map. A fundamental component of defense in StarCraft is blocking these chokepoints near your own resources. Given the small traversable area inside a chokepoint, it can be more efficient to use the surrounding natural untraversable geometry of the world to protect you, and reinforce only these chokepoints with defenses, creating the same level of defense that blocking open space would while consuming fewer resources. We attempt to locate the most vital chokepoints near a player’s base, and then determine a strategy for placing defensive structures to efficiently restrict enemy access through this chokepoint. After calculating optimal building placements, we can show that our solution greatly restricts enemy access to the player’s base with minimal resources, increasing safety of the players resources, while also accommodating specific strategies that will allow the player to continue moving their own units through the defended chokepoint."
             },
             {
                 "type": "video",
-                "data": "https://youtu.be/laojVDBPazo"
+                "data": "https://www.youtube.com/embed/laojVDBPazo"
             },
             {
                 "type": "pdf",
