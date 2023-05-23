@@ -8,6 +8,8 @@ const projectsProto = loadPackageDefinition(packageDefinition);
 
 const projectData = JSON.parse(readFileSync("./projects-ms/projects.json", { encoding: "utf8", flag: "r" }));
 
+console.log(projectData);
+
 function getProject(call, callback) {
     let project = projectData.find((project) => project.id === call.request.id);
     project._extra = JSON.stringify(project);
