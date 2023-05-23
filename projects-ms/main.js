@@ -9,6 +9,7 @@ const projectsProto = loadPackageDefinition(packageDefinition);
 
 function getProject(call, callback) {
     let project = projectData.find((project) => project.id === call.request.id);
+    project._extra = JSON.stringify(project);
     if (project) callback(null, project);
     else {
         callback({
