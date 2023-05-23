@@ -2,91 +2,185 @@
     {
         "id": 0,
         "title": "Undergraduate Thesis",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Chokepoint Detection and Wall-In Building Placement in StarCraft",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            },
+            {
+                "type": "pdf",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 1,
         "title": "Have You Seen Kent?",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Roguelike game with custom SFML C++ game engine",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 2,
         "title": "Village Generator",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Creating Minecraft Villages using AI",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 3,
         "title": "Minecraft Mods",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Series of Minecraft Forge addons, with 600,000+ downloads",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 4,
         "title": "Discord Bots",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Community chatbot games with database integration",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 5,
         "title": "Universe PCG",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Procedurally generated star systems and planets",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 6,
         "title": "Yuwanna Fight Simulator",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Text-based combat web game",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 7,
         "title": "Gesture Control",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Run hotkeys with hand movements",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     },
     {
         "id": 8,
         "title": "Portfolio Website",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/kent-ico.png",
-        "imageUrl": "http://cdn.devbread.net/static/portfolio/kent.png",
-        "videoUrl": "",
+        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "This website powered by a custom CDN",
-        "description": "",
-        "links": ""
+        "content": [
+            {
+                "type": "image",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": ""
+            },
+            {
+                "type": "video",
+                "data": ""
+            }
+        ]
     }
 ]
