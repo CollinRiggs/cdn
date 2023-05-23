@@ -6,7 +6,7 @@ import { readFileSync } from "fs";
 const packageDefinition = loadSync(PROTO_PATH);
 const projectsProto = loadPackageDefinition(packageDefinition);
 
-const projectData = JSON.parse(readFileSync("./projects.json", { encoding: "utf8", flag: "r" }));
+const projectData = JSON.parse(readFileSync("projects.json", { encoding: "utf8", flag: "r" }));
 
 function getProject(call, callback) {
     let project = projectData.find((project) => project.id === call.request.id);
