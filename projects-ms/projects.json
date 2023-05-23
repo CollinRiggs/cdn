@@ -1,13 +1,13 @@
 [
     {
         "id": 0,
-        "title": "Undergraduate Thesiss",
+        "title": "Undergraduate Thesis",
         "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Chokepoint Detection and Wall-In Building Placement in StarCraft",
         "content": [
             {
                 "type": "image",
-                "data": ""
+                "data": "https://cdn.devbread.net/static/portfolio/projects/images/starcraft.png"
             },
             {
                 "type": "text",
