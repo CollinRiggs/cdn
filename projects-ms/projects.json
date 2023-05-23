@@ -2,7 +2,7 @@
     {
         "id": 0,
         "title": "Undergraduate Thesis",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/starcraft.png",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/starcraft.png",
         "tagline": "Chokepoint Detection and Wall-In Building Placement in StarCraft",
         "content": [
             {
@@ -11,11 +11,15 @@
             },
             {
                 "type": "text",
-                "data": "Abstract: A common concept in RTS games is a “chokepoint”, a narrow unavoidable section of the game world. In StarCraft, chokepoints are obstacles that restrict the flow of units as they travel throughout the map. A fundamental component of defense in StarCraft is blocking these chokepoints near your own resources. Given the small traversable area inside a chokepoint, it can be more efficient to use the surrounding natural untraversable geometry of the world to protect you, and reinforce only these chokepoints with defenses, creating the same level of defense that blocking open space would while consuming fewer resources. We attempt to locate the most vital chokepoints near a player’s base, and then determine a strategy for placing defensive structures to efficiently restrict enemy access through this chokepoint. After calculating optimal building placements, we can show that our solution greatly restricts enemy access to the player’s base with minimal resources, increasing safety of the players resources, while also accommodating specific strategies that will allow the player to continue moving their own units through the defended chokepoint."
+                "data": "Given my affinity for video games, it felt only right that my honours thesis be based on artificial intelligence in video games. In the following video and paper I go through the theory and implementation of my solution to a microstrategy in StarCraft."
             },
             {
                 "type": "video",
                 "data": "https://www.youtube.com/embed/laojVDBPazo"
+            },
+            {
+                "type": "text",
+                "data": "Abstract: A common concept in RTS games is a “chokepoint”, a narrow unavoidable section of the game world. In StarCraft, chokepoints are obstacles that restrict the flow of units as they travel throughout the map. A fundamental component of defense in StarCraft is blocking these chokepoints near your own resources. Given the small traversable area inside a chokepoint, it can be more efficient to use the surrounding natural untraversable geometry of the world to protect you, and reinforce only these chokepoints with defenses, creating the same level of defense that blocking open space would while consuming fewer resources. We attempt to locate the most vital chokepoints near a player’s base, and then determine a strategy for placing defensive structures to efficiently restrict enemy access through this chokepoint. After calculating optimal building placements, we can show that our solution greatly restricts enemy access to the player’s base with minimal resources, increasing safety of the players resources, while also accommodating specific strategies that will allow the player to continue moving their own units through the defended chokepoint."
             },
             {
                 "type": "pdf",
@@ -26,160 +30,148 @@
     {
         "id": 1,
         "title": "Have You Seen Kent?",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
         "tagline": "Roguelike game with custom SFML C++ game engine",
         "content": [
             {
                 "type": "image",
-                "data": ""
+                "data": "https://cdn.devbread.net/static/portfolio/projects/images/kent.png"
             },
             {
                 "type": "text",
-                "data": ""
+                "data": "Have You Seen Kent? is possibly the project I am most proud of in my career as a software developer. Not only did we achieve a perfect final mark in the related course, but me and my three other classmates poured our heart and soul into getting this game to be the best work we could all create. My role in our group was very technical, focusing on building the core game engine, which uses an Entity-Component system. I also designed the AI systems for all of our standard enemy mobs, using a vector-field pathing algorithm. I used this algorithm because it let us move all of the computation time to during level loading, which reduced complexity during gameplay increasing framerate and tick stability. On top of core game systems, I also developed a custom rendering engine with the SFML system, learning GL Shader Language to create effects for in-game statuses as well as lighting systems."
+            },
+            {
+                "type": "text",
+                "data": "This project also taught me a lot about team and project management. I was used to working either alone or with a partner, so having four active developers meant I needed to become familiar with git so we could use version control to its fullest, allowing easy bugfixing, rollbacks when we were experimenting, and seamless concurrent development in our primary sprint. Several times we needed to step back and evaluated our goal for the end project, to see what was truly feasible given current progress, but after several sleepless nights I could not be happier with the final product."
+            },
+            {
+                "type": "text",
+                "data": "Here is a demo video showcasing the features of the game."
             },
             {
                 "type": "video",
-                "data": ""
+                "data": "https://youtube.com/embed/3oETqkPkV9E"
+            },
+            {
+                "type": "text",
+                "data": "We also constructed a complete explanation video, exhibiting every feature of the game while explaining the technical aspects behind them. If you would like, you can also watch this video here."
+            },
+            {
+                "type": "video",
+                "data": "https://youtube.com/embed/n9SQdKeiONs"
             }
         ]
     },
     {
         "id": 2,
         "title": "Village Generator",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/village.png",
         "tagline": "Creating Minecraft Villages using AI",
         "content": [
             {
                 "type": "image",
-                "data": ""
+                "data": "https://cdn.devbread.net/static/portfolio/projects/images/village.png"
             },
             {
                 "type": "text",
-                "data": ""
+                "data": "This Minecraft Village generator I built was according to the Generative Design in Minecraft Challenge, where AI systems are pitted against each other to create the best structures in Minecraft. I used a combination of image processing techniques and pathfinding algorithms to create an improved terrain on which to build a village. I then built a custom schematic system to load my Minecraft creations into a parsable file, which my generator used to create intricate and detail filled cities. To see the results, here is a trailer I made for my project."
             },
             {
                 "type": "video",
-                "data": ""
+                "data": "https://youtube.com/embed/aOFP8ueiEhs"
+            },
+            {
+                "type": "text",
+                "data": "For a better explanation of how each system works and how they all tie together, feel free to consult the in-depth explanation video I made as well, which highlights the specific technical aspects I focused on to make this project a reality."
+            },
+            {
+                "type":"video",
+                "data": "https://youtube.com/embed/LktC8Z4S0IU"
             }
         ]
     },
     {
         "id": 3,
         "title": "Minecraft Mods",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/mod.jpg",
         "tagline": "Series of Minecraft Forge addons, with 600,000+ downloads",
         "content": [
             {
                 "type": "image",
-                "data": ""
+                "data": "https://cdn.devbread.net/static/portfolio/projects/images/tesla.png"
             },
             {
                 "type": "text",
-                "data": ""
+                "data": "While outdated, my Minecraft modding projects will always hold dear to me because this is where I began to learn to program. Back in 2016 I entered a 96-hour long competition with friends from all over the world as we competed to make the best mods we could within 4 days. Tesla Essentials was my groups project, and the success we achieved from that project made me believe I could be a software developer one day. As I am writing this paragraph now, we have amassed over 600,000 downloads, a number which I cannot begin to comprehend. Some of the content has been lost as the hosting site has rebuilt their site since the release of this project, but you can still take a look for yourself if you'd like."
             },
             {
-                "type": "video",
-                "data": ""
+                "type": "link",
+                "data": "https://legacy.curseforge.com/minecraft/mc-mods/tesla-essentials"
+            },
+            {
+                "type": "text",
+                "data": "As someone with severe Arachnophobia as a child, I also used video game modding as a way to help me deal with my fears. My first solo project was a mod to remove spiders from the game, so I could play with my friends in peace. This ended up being mildly popular in the community, so I branched out, learned more about how to use the full power of a modding API, and revamped a few game aspects to account for the missing mob in the game. I altered game mechanics like block drops and structure spawning tables to allow for a complete game without my dreaded fear. This project is now approaching 10,000 downloads, and the info can be seen below."
+            },
+            {
+                "type": "link",
+                "data": "https://legacy.curseforge.com/minecraft/mc-mods/arachnophobia"
             }
         ]
     },
     {
         "id": 4,
-        "title": "Discord Bots",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
-        "tagline": "Community chatbot games with database integration",
+        "title": "Gesture Control",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/gesture.png",
+        "tagline": "Run hotkeys with hand movements",
         "content": [
             {
-                "type": "image",
-                "data": ""
-            },
-            {
                 "type": "text",
-                "data": ""
+                "data": "Along with two classmates, in my final semester of university I finally got a good grasp on the structures of machine learning and how to find practical uses of it. Frequently one might find themselves eating at their desk while watching a show, and we all know the horrors that is getting food all over your keyboard when you try to change the volume or skip to the next episode. To combat this, we built a machine learning model that would track the position of our hands with our webcam, and then detect when we made certain gestures with our food-covered hands. These gestures were then programmed to execute certain hotkeys, like media and volume controls.\nA quick demo of the project can be seen here, performed by my classmate Noah D-A."
             },
             {
                 "type": "video",
-                "data": ""
+                "data": "https://youtube.com/embed/3WShoEJN9ls"
+            },
+            {
+                "type": "text",
+                "data": "If you want a more detailed explanation of how the whole system works, feel free to check out the in-depth video we made explaining the systems behind our hand tracking, neural network, and input controllers."
+            },
+            {
+                "type": "video",
+                "data": "https://youtube.com/embed/iXh9LbbXTRk"
             }
         ]
     },
     {
         "id": 5,
-        "title": "Universe PCG",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
-        "tagline": "Procedurally generated star systems and planets",
-        "content": [
-            {
-                "type": "image",
-                "data": ""
-            },
-            {
-                "type": "text",
-                "data": ""
-            },
-            {
-                "type": "video",
-                "data": ""
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "title": "Yuwanna Fight Simulator",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
-        "tagline": "Text-based combat web game",
-        "content": [
-            {
-                "type": "image",
-                "data": ""
-            },
-            {
-                "type": "text",
-                "data": ""
-            },
-            {
-                "type": "video",
-                "data": ""
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "title": "Gesture Control",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
-        "tagline": "Run hotkeys with hand movements",
-        "content": [
-            {
-                "type": "image",
-                "data": ""
-            },
-            {
-                "type": "text",
-                "data": ""
-            },
-            {
-                "type": "video",
-                "data": ""
-            }
-        ]
-    },
-    {
-        "id": 8,
         "title": "Portfolio Website",
-        "iconUrl": "http://cdn.devbread.net/static/portfolio/projects/icons/kent-ico.png",
+        "iconUrl": "https://cdn.devbread.net/static/portfolio/projects/icons/website.png",
         "tagline": "This website powered by a custom CDN",
         "content": [
             {
-                "type": "image",
-                "data": ""
+                "type": "text",
+                "data": "This website you're browsing now has all been made by scratch using functional React. In university, I had the opportunity to take a short class on component-based React, but given more modern standards, I felt that if I could learn a new skill which might help me in the workforce while also building a site to display my skills and achievements, I could knock out two birds with one stone."
             },
             {
                 "type": "text",
-                "data": ""
+                "data": "As always for me, I needed to find a way to overcomplicate the project. The front-end of this site is all built in React, but instead of letting React handle data storage as well I decided to build a REST API backend for my website. Using an Express server as an image store was easy enough, but after learning about RPC technology, I wanted to find a way to implement that as well."
             },
             {
-                "type": "video",
-                "data": ""
+                "type": "text",
+                "data": "Currently, I have a main service running which handles all routing, as well as exposes my image store as a static folder. My secondary service handles all of my project information. This information you are reading now is stored in JSON, which is then interpreted and kept stored in a microservice. When you visited this specific page, a request was made to my server, which passed the request through gRPC to my projects microservice, and responded with all of the details you see now."
+            },
+            {
+                "type": "text",
+                "data": "I have plans to continue to use this server as my primary content delivery network server for any personal projects I may build in the future. The reason I did the extra work now implementing RPC communications was so I could easily build onto this server later with more microservices for other projects I may build. Along the way, I learned the struggles of verifying SSL certificates so anyone who visits can feel safe on my site. Reverse proxies were an interesting learning experience too."
+            },
+            {
+                "type": "text",
+                "data": "While I'm sure this site is not bug-free, I think it works well enough to showcase not only the other projects and skills I have, but that I can also learn many new services and frameworks at once and come up with a complete project. Not to mention the time it took to set up this private virtual server so I could host everything myself."
+            },
+            {
+                "type": "text",
+                "data": "If you do find any issues with the site, please don't hesitate to contact me and let me know, I'd appreciate it! Bugfixing is a necessary evil in this field, and I am no stranger to it. My contact info is at the top of my main page."
             }
         ]
     }
