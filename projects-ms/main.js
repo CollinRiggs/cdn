@@ -1,11 +1,12 @@
 import { loadPackageDefinition, Server, ServerCredentials } from "@grpc/grpc-js";
 const PROTO_PATH = "./protos/projects.proto";
 import { loadSync } from "@grpc/proto-loader";
-
-import projectData from './projects.json' assert { type: 'json' };
+import { readFileSync } from "fs";
 
 const packageDefinition = loadSync(PROTO_PATH);
 const projectsProto = loadPackageDefinition(packageDefinition);
+
+const projectData = JSON.parse(readFileSync("./projects.json", { encoding: "utf8", flag: "r" }));
 
 function getProject(call, callback) {
     let project = projectData.find((project) => project.id === call.request.id);
