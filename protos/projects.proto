@@ -19,11 +19,13 @@ message Project {
     uint32 id = 1;
     string title = 2;
     string iconUrl = 3;
-    string imageUrl = 4;
-    string videoUrl = 5;
-    string tagline = 6;
-    string description = 7;
-    string links = 8;
+    string tagline = 4;
+    repeated ContentItem content = 5;
+}
+
+message ContentItem {
+    string type = 1;
+    string data = 2;
 }
 
 message ProjectStub {
